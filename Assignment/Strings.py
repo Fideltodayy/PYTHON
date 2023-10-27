@@ -1,18 +1,20 @@
 # Step 1: Initialize three strings called title, nature, and schedules
 title = "CMT 400 Research Project"
-nature = "Nature of the unit\nThe Research Project is not a programming unit..."
-schedules = "The research project is a project and not a process. It should have..."
-
+nature = "Finance,The Research Project is meant to offer financial literacy"
+schedules = "To be delivered in 1 semester"
+print(title,nature,schedules)
 # Step 2: Using slicing syntax
 # i. Extract and display the unit code from title
 unit_code = title[:7]
 print("Unit Code:", unit_code)
 
 # ii. Extract and display the subtitle "Nature of the Unit" from nature
-start_index = nature.index("Nature of the unit")
-end_index = nature.index("1. Review existing literature")  # Assuming this is where it ends
-subtitle = nature[start_index:end_index]
-print("Subtitle:", subtitle)
+# start_index = nature.index("Finance")
+# end_index = nature.index("The Research Project is meant to offer financial literacy")  # Assuming this is where it ends
+# subtitle = nature[start_index:end_index]
+# print("Subtitle:", subtitle)
+subtitle = nature.split(",")
+print(subtitle[0])
 
 # iii. Convert the string called schedules to upper case
 schedules_upper = schedules.upper()
