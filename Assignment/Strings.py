@@ -30,3 +30,5 @@ for item in title_list:
 # Step 3: Determine the number of times the word “project” appears in the schedule string.
 project_count = schedules.lower().count("project")
 print("Number of times 'project' appears in schedules:", project_count)
+
+#this can still be optimised.I will revisit
