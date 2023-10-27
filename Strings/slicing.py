@@ -1,0 +1,12 @@
+fidel = " Fideltodayy "
+fid = fidel.strip()
+print(fid)
+print(fid[2:4])
+print(fid[:5])
+print(fid[4:])
+print(fid[-5:-2])
+print(fid.lower())
+print(fid.upper())
+print(fid.replace("F","G"))
+print(len(fid))
+print(fid.split("t"))
