@@ -69,7 +69,12 @@ print(list3)
 
 list1 = ["a", "b", "c"]
 list2 = [1, 2, 3]
-
+(one,two,three) = list2
+print(one)
+print(two)
+print(three)
 for x in list1:
     list2.append(x)
 print(list2)
+
+
