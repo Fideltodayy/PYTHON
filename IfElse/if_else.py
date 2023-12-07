@@ -16,4 +16,5 @@ else:
 
 a = 15
 b = 8
-print("A is bigger than B") if a>b else print(" Bis bigger than A")
+print("A is bigger than B") if a>b or a>0 else print(" B is bigger than A")
+
