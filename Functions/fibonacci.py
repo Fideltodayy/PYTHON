@@ -11,5 +11,6 @@ def fibonacci(n):
             next_number = fib_sequence[-1] + fib_sequence[-2]
             fib_sequence.append(next_number)
             print(fib_sequence)
+        # print(fib_sequence[-1])
 
 fibonacci(10)
